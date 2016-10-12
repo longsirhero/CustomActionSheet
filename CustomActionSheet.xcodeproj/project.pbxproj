@@ -16,6 +16,7 @@
 		62BC1DD01DAE2C30004B7505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BC1DCE1DAE2C30004B7505 /* LaunchScreen.storyboard */; };
 		62BC1DDB1DAE2C30004B7505 /* CustomActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BC1DDA1DAE2C30004B7505 /* CustomActionSheetTests.m */; };
 		62BC1DE61DAE2C30004B7505 /* CustomActionSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BC1DE51DAE2C30004B7505 /* CustomActionSheetUITests.m */; };
+		62BC1DF51DAE2CD3004B7505 /* CustomAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BC1DF41DAE2CD3004B7505 /* CustomAlertController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		62BC1DE11DAE2C30004B7505 /* CustomActionSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomActionSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BC1DE51DAE2C30004B7505 /* CustomActionSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomActionSheetUITests.m; sourceTree = "<group>"; };
 		62BC1DE71DAE2C30004B7505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BC1DF31DAE2CD3004B7505 /* CustomAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertController.h; sourceTree = "<group>"; };
+		62BC1DF41DAE2CD3004B7505 /* CustomAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				62BC1DC11DAE2C30004B7505 /* AppDelegate.m */,
 				62BC1DC31DAE2C30004B7505 /* ViewController.h */,
 				62BC1DC41DAE2C30004B7505 /* ViewController.m */,
+				62BC1DF31DAE2CD3004B7505 /* CustomAlertController.h */,
+				62BC1DF41DAE2CD3004B7505 /* CustomAlertController.m */,
 				62BC1DC61DAE2C30004B7505 /* Main.storyboard */,
 				62BC1DCC1DAE2C30004B7505 /* Assets.xcassets */,
 				62BC1DCE1DAE2C30004B7505 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62BC1DCB1DAE2C30004B7505 /* CustomActionSheet.xcdatamodeld in Sources */,
+				62BC1DF51DAE2CD3004B7505 /* CustomAlertController.m in Sources */,
 				62BC1DC51DAE2C30004B7505 /* ViewController.m in Sources */,
 				62BC1DC21DAE2C30004B7505 /* AppDelegate.m in Sources */,
 				62BC1DBF1DAE2C30004B7505 /* main.m in Sources */,
